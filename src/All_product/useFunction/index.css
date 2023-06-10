@@ -1,0 +1,118 @@
+
+.cardTitle{
+    height: 75px;
+    color:var(--font_color) ;
+}
+p, h1,h2,h4,h5,h6{
+color: var(--font_color);
+}
+.CardMedia{
+ width: 100%;
+ background-color:var(--bac_color) ;
+}
+.img_one{
+    width: 100%;
+    height: 400px;
+    /* margin:5px 0px 0px 5rem ; */
+}
+.img{
+    width: 100%;
+    margin:0px auto !important;
+    height: 200px;
+   
+}
+.Card{
+    width: 95%;
+    margin: 10px auto;
+    height: 400px;
+    overflow: hidden;
+    background-color: var(--bac_color);
+    color: var(--font_color);
+}
+.card_block{
+    width: 100%;
+    display: grid;
+     grid-template-columns: auto auto auto auto auto;
+}
+.radioGrupContainer_open{
+    height: 200px;
+    opacity: 1;
+    position:absolute;
+    overflow: hidden;
+    transition-duration: .5s;
+    display: block;
+    color: var(--font_color);
+    background-color: var(--bac_color);
+    margin-top: -25px;
+}
+
+.radioGrupContainer_close{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+.card_product{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 5px;
+}
+.card_content{
+    width: 95%;
+    border: 1px solid var(--font_color);
+    border-radius: 12px;
+    margin: 5px auto;
+}
+.card_content h5{
+    text-decoration: underline;
+}
+.card_content h4{
+    text-align: center;
+}
+.card_content p{
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+.color1{
+    color: aliceblue;
+}
+.Order_block{
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    margin: 10px auto;
+}
+@media (max-width:570px){
+
+    .card_block{
+        grid-template-columns: auto;
+    }
+    .CardMedia img{
+        width: 90%;
+        margin: auto !important;
+        max-height: 200px;
+       
+    }
+    .card_content{
+        width: 89%;
+    }
+    .one_product_card{
+        position: relative;
+    }
+    .cloase_content{
+         position: absolute;
+         
+    }
+    .Order_block{
+        width: 100%;
+    }
+}
+
+@media (max-width:980px) and (min-width:580px) {
+    .card_block{
+        grid-template-columns: auto auto auto auto;
+    }
+}

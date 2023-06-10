@@ -1,0 +1,51 @@
+.button_onclick{
+    min-height: auto;
+    display: block;
+}
+.card_out_block_second_onlick{
+    width: 95%;
+    margin: 5px auto;
+ }
+
+ .card_right_2{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    margin: 5px auto;
+
+}
+
+.card_right_2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    margin: 5px auto;
+}
+.block_left_2{
+    margin: 10px auto;
+    
+}
+
+.block_text{
+    padding: 5px;
+    color: var(--font_color);
+}
+.block_title{
+    width: 70%;
+    min-height: 75px;
+    text-align: center;
+    color: var(--font_color);
+    margin: 10px auto;
+    box-shadow:1px 1px 3px 1px rgba(139, 195, 74, 0.5) inset !important ; 
+    border-radius: 30px;
+}
+@media (max-width:570px) {
+    .card_out_block_second_onlick{
+        width: 99%;
+    }
+    .block_text{
+        padding: auto;
+        text-align: justify
+    }
+}
+
